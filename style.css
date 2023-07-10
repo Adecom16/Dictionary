@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dic{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 5px black
+}
+.all{
+    background-image: url(./book-3801210_1920.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.max{
+    max-width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(0,0,0,0.8);
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(0,0,0,0.8);
+    color: white;
+    animation: scale 20s infinite;
+}
+
+@keyframes scale{
+    0%   {background-color: rgb(0,0,0,0.8); }
+    25%  {background-color: rgb(121, 89, 7);}
+    50%  {background-color:rgb(0,0,0,0.8);}
+    100% {background-color:rgb(0,0,0,0.8);}
+}
+.max input{
+    padding: 6px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.max button{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+}
+#dom{
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+// const url = 'https://api.dictionaryapi.dev/api/v2/entries/en/hello';
+
+// fetch(url)
+//   .then(response => response.json())
+//   .then(data => {
+//     console.log(data);
+//     // document.getElementById('dom').innerHTML=data
+//     // Perform further operations with the object data
+//   })
+//   .catch(error => {
+//     console.error('Error:', error);
+//   });
+
+
+// const url = 'https://api.dictionaryapi.dev/api/v2/entries/en/hello';
+
+// fetch(url)
+//   .then(response => response.json())
+//   .then(data => {
+//     const resultElement = document.getElementById('dom');
+//     resultElement.textContent = JSON.stringify(data, null, 2);
+//   })
+//   .catch(error => {
+//     console.error('Error:', error);
+//   });
